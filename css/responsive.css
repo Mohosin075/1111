@@ -1,0 +1,65 @@
+@media all and (max-width:760px){
+  .header-area .logo-area h1{
+    font-size: 20px;
+  }
+  .header-area .main-menu ul li a{
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+  .header-area .header-top{
+    padding: 25px 0;
+  }
+  .header-area .header-bottom h2{
+    font-size: 27px;
+    line-height: 10px;
+  }
+  .header-area .call-to-action-header a{
+    padding: 5px 50px;
+    font-size: 17px;
+  }
+}
+@media all and (max-width:360px){
+  .header-area .logo-area h1{
+    font-size: 15px;
+  }
+  .header-area .main-menu ul li a{
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+  .header-area .header-top{
+    padding: 25px 0;
+  }
+  .header-area .header-bottom h2{
+    display: none;
+  }
+  .header-area .call-to-action-header a{
+    padding: 5px 30px;
+    font-size: 14px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+  }
+  .portfolio-area .portfolio-menu ul li a{
+    padding: 5px 10px;
+    font-size: 10px;
+   
+  }
+  .portfolio-area .call-to-action-port a{
+    padding: 5px 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .contact-area .username .name-field{
+    width: 100%;
+    float: none;
+  }
+    .contact-area .username .email-field{
+      width: 100%;
+      float: none;
+      margin: 5px 0;
+    }
+  .contact-area .call-to-action-message input{
+    padding: 5px 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
